@@ -13,58 +13,19 @@
     <!-- PORTFOLIO -->
     <section id="portfolio">
       <div class="container">
-
-      <?php 
-      // if(have_posts()) : 
-      ?>
-
         <div class="heading">
           <h1>projects</h1>
         </div>
-        <?php
-        //  while(have_posts()) : the_post();
-          ?>
-        <!-- <div class="row"> -->
-          <!-- <div class="col-md-6"> -->
-              <!-- <div class="gutter-fix"> -->
-                  <?php 
-                    // if( has_post_thumbnail() ):
-                        // echo get_the_post_thumbnail();
-                    // endif; 
-                    ?>
-              <!-- </div> -->
-          <!-- </div> -->
-          <!-- <div class="col-md-6"> -->
-            <!-- <p> -->
-              <?php
-              // the_content();
-               ?>
-            <!-- </p> -->
-          <!-- </div> -->
-        <!-- </div> -->
 
-
-       
-      <?php 
-    // endwhile; 
-    ?>
-      <?php 
-    // else: 
-    ?>
-      <?php 
-      // __('Nothing found'); 
-      ?>
-      <?php 
-    // endif;
-     ?>
-    
         <div class="row">
           <div class="col-md-6">
-            <a target="_blank" href="https://www.relok.de/">
-              <div class="gutter-fix">
-                <img class="imgs" src="<?php bloginfo('template_url'); ?>/images/relok.jpg" alt="" />
-              </div>
-            </a>
+            <video class="relok-video" controls>
+              <source
+                src="<?php bloginfo('template_url'); ?>/videos/relok.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
           <div class="col-md-6">
             <p>
@@ -75,8 +36,7 @@
           </div>
         </div>
 
-        <hr/>
-
+        <hr />
 
         <div class="row">
           <div class="col-md-6">
@@ -85,7 +45,11 @@
               href="https://eloquent-tereshkova-b0a725.netlify.com/"
             >
               <div class="gutter-fix">
-                <img class="imgs" src="<?php bloginfo('template_url'); ?>/images/skyview.jpg" alt="" />
+                <img
+                  class="imgs"
+                  src="<?php bloginfo('template_url'); ?>/images/skyview.jpg"
+                  alt=""
+                />
               </div>
             </a>
           </div>
@@ -105,7 +69,11 @@
           <div class="col-md-6">
             <a target="_blank" href="https://silly-mcnulty-d65d60.netlify.com/">
               <div class="gutter-fix">
-                <img class="imgs" src="<?php bloginfo('template_url'); ?>/images/bitcoin.jpg" alt="" />
+                <img
+                  class="imgs"
+                  src="<?php bloginfo('template_url'); ?>/images/bitcoin.jpg"
+                  alt=""
+                />
               </div>
             </a>
           </div>
@@ -117,26 +85,44 @@
             </p>
           </div>
         </div>
-        <!-- 
+
         <hr />
 
         <div class="row">
           <div class="col-md-6">
-            <a href="https://modest-nightingale-fb1861.netlify.com/">
-              <div class="gutter-fix">
-                <img class="imgs" src="images/realestate.jpg" alt="" />
-              </div>
-            </a>
+            <video class="single-planet-video" controls>
+              <source
+                src="<?php bloginfo('template_url'); ?>/videos/single_planet_1200.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
           <div class="col-md-6">
-            <p>
-              A fake real estate website made that lists properties that can be
-              filtered based on several different parameters
-            </p>
+            <video class="single-planet-video" controls>
+              <source
+                src="<?php bloginfo('template_url'); ?>/videos/double_planet2_600.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>          
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+              <p>
+                Hydrodynamical simulation of a planet spinning on its own axis. The planet is composed of 1200 particles, each with its own velocity, density, pressure and energy. The differential equations of state were integrated forward by steps to produce the results shown. The simulation relies on smoothed-particle hydrodynamics, which reduces the computational complexity of the task by restricting each particles influence to only those others that are closest to it. The code can be found <a href="https://github.com/Johngn/planetcollider">here</a>.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                In this case the same technique was used to simulate two planets colliding. Each planet consists of 600 particles each acting under the influece of those closest to it. A nearest neighbour search was done before a cubic-spine smoothing function weighted the influence of each particle depending on which conditions were satisfied.
+              </p>
+            </div>
           </div>
-        </div> -->
       </div>
     </section>
+
 
     <!-- ABOUT -->
     <section id="about" class="container">
