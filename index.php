@@ -1,14 +1,6 @@
 <?php get_header(); ?>
 
-      <!-- SHOWCASE -->
 
-      <div class="ptext container">
-        <div id="slidein">
-          <h1>Welcome to <?php bloginfo('name'); ?></h1>
-          <p id="welcome"><?php bloginfo('description') ?></p>
-        </div>
-      </div>
-    </div>
 
     <!-- PORTFOLIO -->
     <section id="portfolio">
@@ -111,7 +103,7 @@
         <div class="row">
             <div class="col-md-6">
               <p>
-                Hydrodynamical simulation of a planet spinning on its own axis. The planet is composed of 1200 particles, each with its own velocity, density, pressure and energy. The differential equations of state were integrated forward by steps to produce the results shown. The simulation relies on smoothed-particle hydrodynamics, which reduces the computational complexity of the task by restricting each particles influence to only those others that are closest to it. The code can be found <a href="https://github.com/Johngn/planetcollider">here</a>.
+                Hydrodynamical simulation of a planet spinning on its own axis. The planet is composed of 1200 particles, each with its own velocity, density, pressure and energy. The differential equations of state were integrated forward by steps to produce the results shown. The simulation relies on smoothed-particle hydrodynamics, which reduces the computational complexity of the task by restricting each particles influence to only those others that are closest to it. The code can be found at <a href="https://github.com/Johngn/planetcollider">https://github.com/Johngn/planetcollider</a>.
               </p>
             </div>
             <div class="col-md-6">
@@ -120,7 +112,42 @@
               </p>
             </div>
           </div>
-      </div>
+
+        <hr />
+
+        <div class="row">
+          <div class="col-md-6">
+            <video class="single-planet-video" controls>
+              <source
+                src="<?php bloginfo('template_url'); ?>/videos/solarsystemouter.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-md-6">
+            <video class="single-planet-video" controls>
+              <source
+                src="<?php bloginfo('template_url'); ?>/videos/solarsysteminnerBH3D.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>          
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+              <p>
+                N-body simulation of the solar system. This was created using a custom made 4th order Runge-Kutta integrator. The initial positions and velocities of the solar system bodies were found with astropy. The code can be found at <a href="https://github.com/Johngn/solarsystem">https://github.com/Johngn/solarsystem</a>.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                The same N-body code used to simulate the effect of a 0.5 solar mass black hole flying through the inner solar system. Massive distruption is caused, including the ejection of Mars from the solar system.
+              </p>
+            </div>
+          </div>
+        </div>
     </section>
 
 
@@ -135,8 +162,8 @@
         </div>
         <div class="col-md-6">
           <p>
-            My educational background is in physics and astronomy, and I have a
-            first class honours degree in Astronomy and Planetary science. I can
+            My educational background is in physics and astronomy. I have a
+            BSc in Astronomy and Planetary science from the Open University, and an MSc in Astrophysics from Lund University. I can
             work with React, Vue, HTML/CSS, SASS, Bootstrap, JavaScript and Git.
           </p>
         </div>

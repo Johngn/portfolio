@@ -29,7 +29,7 @@
     <!-- NAVBAR -->
     <div class="pimg" id="home">
       <nav class="navbar navbar-expand fixed-top navbar-dark">
-        <div class="container">
+        <div class="">
           <button
             class="navbar-toggler"
             type="button"
@@ -60,4 +60,14 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav>      
+      
+      <!-- SHOWCASE -->
+
+      <div class="ptext container">
+        <div id="slidein">
+          <h1 class="showcase-h1"><?php bloginfo('name'); ?></h1>
+          <p class="showcase-p" id="welcome"><?php bloginfo('description') ?></p>
+        </div>
+      </div>
+    </div>

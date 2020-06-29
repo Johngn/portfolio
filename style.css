@@ -38,8 +38,8 @@ html {
 }
 
 .pimg {
-  background-image: url("./images/code2.jpeg");
-  height: 100%;
+  background-image: url("./images/code1.jpeg");
+  height: 600px;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -48,7 +48,6 @@ html {
 .ptext {
   text-transform: uppercase;
   font-family: "montserrat", sans-serif;
-  font-weight: 100 !important;
   color: white;
   padding-top: 250px;
 }
@@ -65,7 +64,7 @@ html {
   color: rgba(255, 255, 255, 0.9);
 }
 #welcome {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 #intro {
@@ -120,12 +119,12 @@ html {
   outline: none;
   border-radius: 2px;
 }
-#portfolio .row a {
+/* #portfolio .row a {
   color: #333;
 }
 #portfolio .row a:hover {
   text-decoration: none;
-}
+} */
 #portfolio .row {
   margin: 60px 0;
 }
