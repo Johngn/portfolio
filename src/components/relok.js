@@ -3,7 +3,7 @@ import relokvid from "../videos/relok.mp4"
 
 export default function Relok() {
   return (
-    <div class="row">
+    <div class="row" style={{ margin: "50px 0" }}>
       <div class="col-md-6">
         <video class="relok-video" controls>
           <source src={relokvid} type="video/mp4" />

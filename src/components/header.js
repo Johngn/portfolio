@@ -35,11 +35,11 @@ const Header = ({ siteTitle }) => (
                     about
                   </a>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <a id="contactLink" class="nav-link" href="#contact">
                     contact
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
