@@ -1,11 +1,13 @@
 import React from "react"
 
-export default function Webproject({ text, image }) {
+export default function Webproject({ link, text, image }) {
   return (
     <div class="row">
       <div class="col-md-6">
         <div class="gutter-fix">
-          <img class="imgs" src={image} alt="" />
+          <a href={link}>
+            <img class="imgs" src={image} alt="" />
+          </a>
         </div>
       </div>
       <div class="col-md-6">

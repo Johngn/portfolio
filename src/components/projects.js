@@ -19,6 +19,7 @@ export default function Projects() {
         <Relok />
         <hr />
         <Webproject
+          link={"https://johngn.github.io/skyview/"}
           image={skyviewimage}
           text="An app for amateur astronomers that tells you if the weather
           conditions in your area are suitable for sky viewing. It gives a graph
@@ -26,6 +27,7 @@ export default function Projects() {
         />
         <hr />
         <Webproject
+          link={"https://silly-mcnulty-d65d60.netlify.app/"}
           image={bitcoinimage}
           text="A React app that calculates profit or loss from trading bitcoin. It
           takes a date and the amount of bitcions bought, and returns the
