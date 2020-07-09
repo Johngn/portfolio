@@ -3,12 +3,12 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div class="pimg" id="home">
-      <nav class="navbar navbar-expand fixed-top navbar-dark">
-        <div class="container">
+    <div className="pimg" id="home">
+      <nav className="navbar navbar-expand fixed-top navbar-dark">
+        <div className="container">
           <div style={{ width: "1180px" }}>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -16,27 +16,30 @@ const Header = ({ siteTitle }) => (
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a id="homeLink" class="nav-link" href="#home">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav mr-auto">
+                <li className="nav-item">
+                  <a id="homeLink" className="nav-link" href="#home">
                     Home
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a id="portfolioLink" class="nav-link" href="#portfolio">
+                <li className="nav-item">
+                  <a id="portfolioLink" className="nav-link" href="#portfolio">
                     projects
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a id="aboutLink" class="nav-link" href="#about">
+                <li className="nav-item">
+                  <a id="aboutLink" className="nav-link" href="#about">
                     about
                   </a>
                 </li>
-                {/* <li class="nav-item">
-                  <a id="contactLink" class="nav-link" href="#contact">
+                {/* <li className="nav-item">
+                  <a id="contactLink" className="nav-link" href="#contact">
                     contact
                   </a>
                 </li> */}

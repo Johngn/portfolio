@@ -12,8 +12,8 @@ import solarsystemvideo2 from "../videos/solarsysteminnerBH3D.mp4"
 export default function Projects() {
   return (
     <section id="portfolio">
-      <div class="container">
-        <div class="heading">
+      <div className="container">
+        <div className="heading">
           <h1>projects</h1>
         </div>
         <Relok />

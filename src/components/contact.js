@@ -12,19 +12,20 @@ export default function Contact() {
         padding: "80px 0 150px 0",
       }}
     >
-      <div class="container">
+      <div className="container">
         <h1
           style={{
             padding: "40px 0 50px 0",
             textAlign: "center",
             textTransform: "uppercase",
           }}
+          className="contact-header"
         >
           Contact
         </h1>
 
-        <div class="row">
-          <div class="col-md-6">
+        <div className="row">
+          <div className="col-md-6">
             <div>
               <FontAwesomeIcon
                 icon={faEnvelope}
@@ -32,7 +33,8 @@ export default function Contact() {
               />
               jgillan@protonmail.com
             </div>
-            <p>
+
+            <div>
               <FontAwesomeIcon
                 icon={faPhoneAlt}
                 style={{
@@ -42,58 +44,80 @@ export default function Contact() {
                 }}
               />
               +46 076 037 5553
-            </p>
+            </div>
 
             <div>
-              <a class="brand-icon" href="https://github.com/Johngn">
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  style={{
-                    color: "#fff",
-                    fontSize: "35px",
-                    marginRight: "20px",
-                  }}
-                />
-              </a>
-
-              <a href="https://www.linkedin.com/in/john-gillan-a7682a151/">
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  style={{ color: "#fff", fontSize: "35px" }}
-                />
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                style={{
+                  marginRight: "20px",
+                  fontSize: "23px",
+                  marginTop: "20px",
+                }}
+              />
+              <a
+                className="font-icon-link"
+                href="https://www.linkedin.com/in/john-gillan-0661aa1b2/"
+              >
+                Linkedin
               </a>
             </div>
+
+            <div>
+              <FontAwesomeIcon
+                icon={faGithub}
+                style={{
+                  marginRight: "20px",
+                  fontSize: "23px",
+                  marginTop: "20px",
+                }}
+              />
+              <a className="font-icon-link" href="https://github.com/Johngn">
+                Github
+              </a>
+            </div>
+
+            {/* <a
+              href="https://github.com/Johngn"
+              style={{ textDecoration: "none" }}
+            >
+              <FontAwesomeIcon icon={faGithub} className="font-icon-link" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/john-gillan-0661aa1b2/">
+              <FontAwesomeIcon icon={faLinkedin} className="font-icon-link" />
+            </a> */}
           </div>
 
-          <div class="col-md-6">
+          <div className="col-md-6">
             <p>Leave a message:</p>
             <form data-netlify="true" name="contact" method="POST">
-              <div class="form-row">
-                <div class="col">
+              <div className="form-row">
+                <div className="col">
                   <input
                     type="text"
                     name="name"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Name"
                     required
                   />
                 </div>
-                <div class="col">
+                <div className="col">
                   <input
                     id="email"
                     type="email"
                     name="email"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Email"
                     required
                   />
                 </div>
               </div>
               <br />
-              <div class="form-group">
+              <div className="form-group">
                 <textarea
                   id="message"
-                  class="form-control"
+                  className="form-control"
                   name="message"
                   rows="3"
                   placeholder="Your message"
@@ -104,7 +128,7 @@ export default function Contact() {
                 id="btn"
                 type="submit"
                 name="submit"
-                class="btn btn-dark"
+                className="btn btn-dark"
                 value="Submit"
               />
             </form>
