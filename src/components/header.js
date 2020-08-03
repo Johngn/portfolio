@@ -24,11 +24,6 @@ const Header = ({ siteTitle }) => (
             >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <a id="homeLink" className="nav-link" href="#home">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
                   <a id="portfolioLink" className="nav-link" href="#projects">
                     projects
                   </a>
