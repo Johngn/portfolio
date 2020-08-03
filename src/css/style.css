@@ -2,6 +2,9 @@ body,
 html {
   height: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .navbar {
   background: rgba(0, 0, 0, 0.8);
@@ -17,7 +20,7 @@ html {
   text-transform: uppercase;
 }
 .nav-item a {
-  color: white !important;
+  color: rgb(221, 221, 221) !important;
   border: 2px solid rgba(255, 255, 255, 0);
   border-radius: 4px;
 }

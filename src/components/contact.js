@@ -6,6 +6,7 @@ import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 export default function Contact() {
   return (
     <section
+      id="contact"
       style={{
         backgroundColor: "#222",
         color: "#fff",
