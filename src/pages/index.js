@@ -7,7 +7,6 @@ import About from "../components/about"
 import Showcase from "../components/showcase"
 import Projects from "../components/projects"
 
-import "../css/bootstrap.css"
 import "../css/style.css"
 
 const IndexPage = () => (
@@ -15,8 +14,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Showcase />
     <Projects />
-    <About />
     <Contact />
+    <About />
   </Layout>
 )
 

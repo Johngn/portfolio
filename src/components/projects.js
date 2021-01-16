@@ -2,7 +2,7 @@ import React from "react"
 import Relok from "./relok"
 import Webproject from "./webproject"
 import bitcoinimage from "../images/bitcoin.jpg"
-import skyviewimage from "../images/skyview.jpg"
+import skyviewimage from "../images/skyview2.png"
 import Scienceproject from "./scienceproject"
 import planetvideo1 from "../videos/single_planet_1200.mp4"
 import planetvideo2 from "../videos/double_planet2_600.mp4"
@@ -13,11 +13,11 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container">
-        <div className="heading">
-          <h1>projects</h1>
+        <div>
+          <h2 className="projects-heading">projects</h2>
         </div>
         <Relok />
-        <hr />
+        {/* <hr /> */}
         <Webproject
           link={"https://johngn.github.io/skyview/"}
           image={skyviewimage}
@@ -25,7 +25,7 @@ export default function Projects() {
           conditions in your area are suitable for sky viewing. It gives a graph
           of cloud cover, humidity, and wind speed for the next 5 nights."
         />
-        <hr />
+        {/* <hr /> */}
         <Webproject
           link={"https://silly-mcnulty-d65d60.netlify.app/"}
           image={bitcoinimage}
@@ -38,9 +38,9 @@ export default function Projects() {
           video1={planetvideo1}
           text1="Hydrodynamical simulation of a planet spinning on its own axis. The planet is composed of 1200 particles, each with its own velocity, density, pressure and energy. The differential equations of state were integrated forward by steps to produce the results shown. The simulation relies on smoothed-particle hydrodynamics, which reduces the computational complexity of the task by restricting each particles influence to only those others that are closest to it. The code can be found at"
           video2={planetvideo2}
-          text2="In this case the same technique was used to simulate two planets colliding. Each planet consists of 600 particles each acting under the influece of those closest to it. A nearest neighbour search was done before a cubic-spine smoothing function weighted the influence of each particle depending on which conditions were satisfied."
+          text2="In this case the same technique was used to simulate two planets colliding. Each planet consists of 600 particles each acting under the influence of those closest to it. A nearest neighbour search was done before a cubic-spine smoothing function weighted the influence of each particle depending on which conditions were satisfied."
         />
-        <hr />
+        {/* <hr /> */}
         <Scienceproject
           video1={solarsystemvideo1}
           text1="N-body simulation of the solar system. This was created using a custom made 4th order Runge-Kutta integrator. The initial positions and velocities of the solar system bodies were found with astropy. The code can be found at "
