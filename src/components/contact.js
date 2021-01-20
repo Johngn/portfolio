@@ -7,9 +7,8 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <h1 className="heading">Contact</h1>
-        <div className="project-container">
-          <div className="project-row-item">
+        <div className="contact-container">
+          <div className="contact-row-item">
             <div className="contact-item-container">
               <FontAwesomeIcon icon={faEnvelope} className="fontawesome-icon" />
               jgillan@protonmail.com
@@ -35,7 +34,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="project-row-item">
+          <div className="contact-row-item">
             <p className="contact-form-text">Leave a message:</p>
             <form
               className="contact-form"

@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-// import skyviewimage from "../../images/skyview2.png"
+import image from "../../images/flopimg.png"
 
 const ProjectContainer = styled.div`
   margin-top: 40px;
@@ -37,14 +37,15 @@ const Heading = styled.h3`
 export default function Floppredictor() {
   return (
     <ProjectContainer>
-      <ImageContainer>{/* <Img src={} alt="" /> */}</ImageContainer>
+      <ImageContainer>
+        <Img src={image} alt="" />
+      </ImageContainer>
       <TextContainer>
         <Heading>Flop Predictor</Heading>
         <p className="p-text">
-          An app for amateur astronomers that tells you if the weather
-          conditions in your area are suitable for sky viewing. It gives a graph
-          of cloud cover, humidity, and wind speed for the next 5 nights. It can
-          be viewed{" "}
+          Machine learing algorithm trained on a dataset of 6000 films to
+          calculate the expected box office revenue from a film based on a
+          number of inputs. Viewable{" "}
           <a
             href="https://silly-mcnulty-d65d60.netlify.app/"
             target="_blank"

@@ -9,8 +9,8 @@ const Container = styled.div`
   display: flex;
   background-color: #fff;
   padding: 30px;
-  margin-right: auto;
-  max-width: 800px;
+  margin-left: auto;
+  max-width: 1000px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;

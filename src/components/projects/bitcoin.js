@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import bitcoinimage from "../../images/bitcoin.jpg"
+import image from "../../images/bitcoin.png"
 
 const ProjectContainer = styled.div`
   margin-top: 40px;
@@ -55,7 +55,7 @@ export default function Bitcoin() {
         </p>
       </TextContainer>
       <ImageContainer>
-        <Img src={bitcoinimage} alt="" />
+        <Img src={image} alt="" />
       </ImageContainer>
     </ProjectContainer>
   )

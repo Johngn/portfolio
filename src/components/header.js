@@ -1,26 +1,21 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
-    <div className="pimg" id="home">
+    <div className="" id="home">
       <nav className="navbar">
         <div className="container">
           <ul className="navbar-ul">
             <li className="nav-item">
-              <a id="portfolioLink" className="nav-link" href="#projects">
-                projects
-              </a>
+              <Link to="/">Home</Link>
             </li>
+            {/* <li className="nav-item">
+              <Link to="/about">About</Link>
+            </li> */}
             <li className="nav-item">
-              <a id="aboutLink" className="nav-link" href="#about">
-                about
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">
-                contact
-              </a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>

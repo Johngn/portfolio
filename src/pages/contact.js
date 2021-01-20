@@ -2,14 +2,14 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import About from "../components/about"
+import Contact from "../components/contact"
 
 import "../css/style.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="About" />
-    <About />
+    <SEO title="Contact" />
+    <Contact />
   </Layout>
 )
 

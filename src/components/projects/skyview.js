@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import skyviewimage from "../../images/skyview2.png"
+import image from "../../images/skyview.png"
 
 const ProjectContainer = styled.div`
   margin-top: 40px;
@@ -39,7 +39,7 @@ export default function Skyview() {
   return (
     <ProjectContainer>
       <ImageContainer>
-        <Img src={skyviewimage} alt="" />
+        <Img src={image} alt="" />
       </ImageContainer>
       <TextContainer>
         <Heading>SkyView</Heading>

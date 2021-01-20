@@ -27,12 +27,12 @@ body {
 }
 
 .p-text {
-  font-size: 14px;
+  font-size: 16px;
   color: #444;
   line-height: 1.2rem;
   text-align: justify;
   padding: 0 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* NAVBAR */
@@ -81,12 +81,13 @@ body {
 } */
 
 .pimg {
+  padding-top: 50px;
   background-image: url("../images/code1.jpeg");
   background-position: center;
   background-color: black;
   background-size: cover;
   background-attachment: fixed;
-  height: 250px;
+  height: 400px;
 }
 
 .ptext {
@@ -102,13 +103,13 @@ body {
 
 .showcase-h1 {
   font-weight: 100;
-  border-bottom: 2px solid #555;
+  border-bottom: 2px solid #fff;
   padding-bottom: 20px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .showcase-h2 {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 100;
 }
 
@@ -147,14 +148,33 @@ hr {
 /* ABOUT */
 
 #about {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-image-container {
+  width: 40%;
+}
+
+.about-row-item {
+  width: 60%;
+}
+
+.face-image {
+  width: 204px;
+  margin: auto;
 }
 
 .face-image img {
-  display: block;
-  margin: auto;
-  width: 50%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  /* box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.75); */
 }
 
 /* CONTACT */
@@ -162,13 +182,25 @@ hr {
 #contact {
   background-color: #222;
   color: #fff;
-  padding: 50px 0 150px 0;
+  padding: 150px 0 150px 0;
+  height: 100vh;
 }
 
 .contact-header {
   text-align: center;
   text-transform: uppercase;
   font-size: 40px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact-row-item {
+  width: 100%;
 }
 
 .contact-item-container {
@@ -224,10 +256,15 @@ hr {
   margin-top: 10px;
   border: none;
   border-radius: 3px;
-  background-color: rgb(133, 133, 133);
+  background-color: rgb(202, 226, 236);
   cursor: pointer;
   text-transform: uppercase;
   font-size: 18px;
+}
+
+.form-submit-button:hover {
+  background-color: rgb(58, 60, 179);
+  color: #fff;
 }
 
 /* MEDIA QUERIES */
