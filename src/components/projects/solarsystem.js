@@ -51,10 +51,10 @@ export default function Solarsystem() {
           N-body simulation of the solar system. This was created using a custom
           made 4th order Runge-Kutta integrator. The initial positions and
           velocities of the solar system bodies were found with astropy. On the
-          right the same N-body code used to simulate the effect of a 0.5 solar
-          mass black hole flying through the inner solar system. Massive
-          distruption is caused, including the ejection of Mars from the solar
-          system. The code can be found at{" "}
+          right the same N-body code is used to simulate the effect of a black
+          hole flying through the inner solar system. Massive distruption is
+          caused, including the ejection of Mars from the solar system. The code
+          can be found at{" "}
           <a
             href="https://github.com/Johngn/solarsystem"
             target="_blank"
