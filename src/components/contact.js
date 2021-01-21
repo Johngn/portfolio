@@ -35,13 +35,15 @@ export default function Contact() {
           </div>
 
           <div className="contact-row-item">
-            <p className="contact-form-text">Leave a mesage:</p>
+            <p className="contact-form-text">Leave a message:</p>
             <form
               className="contact-form"
-              data-netlify="true"
-              name="contact"
+              name="Contact Form"
               method="POST"
+              data-netlify="true"
             >
+              <input type="hidden" name="form-name" value="Contact Form" />
+
               <div className="form-row">
                 <input
                   type="text"
@@ -69,13 +71,9 @@ export default function Contact() {
                 required
               ></textarea>
 
-              <input
-                id="btn"
-                type="submit"
-                name="submit"
-                className="form-submit-button"
-                value="Submit"
-              />
+              <button type="submit" className="form-submit-button">
+                Submit
+              </button>
             </form>
           </div>
         </div>
