@@ -35,8 +35,13 @@ export default function Contact() {
           </div>
 
           <div className="contact-row-item">
-            <p className="contact-form-text">Leave a message:</p>
-            <form className="contact-form" data-netlify="true" name="contact">
+            <p className="contact-form-text">Leave a mesage:</p>
+            <form
+              className="contact-form"
+              data-netlify="true"
+              name="contact"
+              method="POST"
+            >
               <div className="form-row">
                 <input
                   type="text"
