@@ -20,9 +20,10 @@ const ImageContainer = styled.div`
   flex-direction: column;
 `
 const TextContainer = styled.div`
-  width: 40%;
-  padding: 10px;
+  width: 45%;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
 `
 
 const Img = styled.img`
@@ -31,7 +32,7 @@ const Img = styled.img`
 
 const Heading = styled.h3`
   font-size: 24px;
-  padding: 10px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 100;
 `
@@ -40,7 +41,7 @@ export default function Bitcoin() {
   return (
     <ProjectContainer>
       <TextContainer>
-        <Heading>Bitcoin Profit Tracker</Heading>
+        <Heading>Bitcoin profit tracker</Heading>
         <p className="p-text">
           A bitcoin profit tracker that calculates profit or loss from trading
           bitcoin. It takes a date and the amount of bitcoins bought, and

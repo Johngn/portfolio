@@ -20,9 +20,10 @@ const ImageContainer = styled.div`
   flex-direction: column;
 `
 const TextContainer = styled.div`
-  width: 40%;
-  padding: 10px;
+  width: 45%;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
 `
 
 const Img = styled.img`
@@ -30,7 +31,7 @@ const Img = styled.img`
 `
 const Heading = styled.h3`
   font-size: 24px;
-  padding: 10px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 100;
 `
@@ -42,14 +43,14 @@ export default function Skyview() {
         <Img src={image} alt="" />
       </ImageContainer>
       <TextContainer>
-        <Heading>SkyView</Heading>
+        <Heading>Weather for astromoners</Heading>
         <p className="p-text">
           An app for amateur astronomers that tells you if the weather
           conditions in your area are suitable for sky viewing. It gives a graph
           of cloud cover, humidity, and wind speed for the next 5 nights. It can
           be viewed{" "}
           <a
-            href="https://silly-mcnulty-d65d60.netlify.app/"
+            href="https://practical-shirley-345981.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >

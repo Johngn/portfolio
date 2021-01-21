@@ -15,17 +15,19 @@ const RelokContainer = styled.div`
 `
 
 const VideoContainer = styled.div`
-  width: 60%;
+  width: 70%;
 `
 
 const TextContainer = styled.div`
-  width: 38%;
-  padding-top: 40px;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 const Heading = styled.h3`
   font-size: 24px;
-  padding: 10px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 100;
 `

@@ -41,11 +41,11 @@ export default function Floppredictor() {
         <Img src={image} alt="" />
       </ImageContainer>
       <TextContainer>
-        <Heading>Flop Predictor</Heading>
+        <Heading>Box office predictions</Heading>
         <p className="p-text">
           Machine learing algorithm trained on a dataset of 6000 films to
-          calculate the expected box office revenue from a film based on a
-          number of inputs. Viewable{" "}
+          calculate the expected box office revenue for a film based on a number
+          of inputs. Viewable{" "}
           <a
             href="https://silly-mcnulty-d65d60.netlify.app/"
             target="_blank"
