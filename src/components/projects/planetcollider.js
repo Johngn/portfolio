@@ -4,7 +4,7 @@ import planetvideo1 from "../../videos/single_planet_1200.mp4"
 import planetvideo2 from "../../videos/double_planet2_600.mp4"
 
 const Container = styled.div`
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: #fff;
   padding: 30px;
   margin-right: auto;

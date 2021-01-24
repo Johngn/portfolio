@@ -3,7 +3,7 @@ import styled from "styled-components"
 import image from "../../images/bitcoin.png"
 
 const ProjectContainer = styled.div`
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   background-color: #fff;
   padding: 30px;
@@ -47,7 +47,7 @@ export default function Bitcoin() {
           bitcoin. It takes a date and the amount of bitcoins bought, and
           returns the percentage and the total dollar value. It can be seen{" "}
           <a
-            href="https://silly-mcnulty-d65d60.netlify.app/"
+            href="https://bitcoinprofit.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >

@@ -4,7 +4,7 @@ import solarsystemvideo1 from "../../videos/solarsystemouter.mp4"
 import solarsystemvideo2 from "../../videos/solarsysteminnerBH3D.mp4"
 
 const Container = styled.div`
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 100px;
   background-color: #fff;
   padding: 30px;

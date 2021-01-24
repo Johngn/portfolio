@@ -3,7 +3,7 @@ import styled from "styled-components"
 import image from "../../images/skyview.png"
 
 const ProjectContainer = styled.div`
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   background-color: #fff;
   padding: 30px;
@@ -47,10 +47,12 @@ export default function Skyview() {
         <p className="p-text">
           An app for amateur astronomers that tells you if the weather
           conditions in your area are suitable for sky viewing. It gives a graph
-          of cloud cover, humidity, and wind speed for the next 5 nights. It can
-          be viewed{" "}
+          of cloud cover, humidity, and wind speed for the next 5 nights. Made
+          with React and Chart.js, it also utilises the Google Maps API to
+          autocomplete locations and to convert locations into latitude and
+          longitude coordinates. It can be viewed{" "}
           <a
-            href="https://practical-shirley-345981.netlify.app/"
+            href="https://skyview.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
