@@ -6,7 +6,7 @@ const ProjectContainer = styled.div`
   margin-top: 20px;
   display: flex;
   background-color: #fff;
-  padding: 30px;
+  padding: 10px;
   margin-left: auto;
   max-width: 900px;
   border-radius: 5px;
@@ -20,7 +20,7 @@ const ImageContainer = styled.div`
   flex-direction: column;
 `
 const TextContainer = styled.div`
-  width: 45%;
+  width: 48%;
   display: flex;
   flex-direction: column;
   justify-content: center;

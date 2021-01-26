@@ -6,9 +6,9 @@ const ProjectContainer = styled.div`
   margin-top: 20px;
   display: flex;
   background-color: #fff;
-  padding: 30px;
+  padding: 10px;
   margin-left: auto;
-  max-width: 900px;
+  max-width: 700px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;
@@ -20,7 +20,7 @@ const ImageContainer = styled.div`
   flex-direction: column;
 `
 const TextContainer = styled.div`
-  width: 40%;
+  width: 48%;
   padding: 10px;
   flex-direction: column;
 `

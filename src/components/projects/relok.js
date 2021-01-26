@@ -1,14 +1,15 @@
 import React from "react"
 import styled from "styled-components"
 import relokvid from "../../videos/relok.mp4"
+import relokimg from "../../images/relok.jpg"
 
 const RelokContainer = styled.div`
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   background-color: #fff;
-  padding: 30px;
+  padding: 10px;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 900px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;
@@ -53,7 +54,7 @@ export default function Relok() {
         </p>
       </TextContainer>
       <VideoContainer>
-        <Video className="relok-video" controls>
+        <Video className="relok-video" poster={relokimg} controls>
           <source src={relokvid} />
           <track default kind="captions" src={relokvid} />
         </Video>

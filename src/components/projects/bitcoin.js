@@ -6,9 +6,9 @@ const ProjectContainer = styled.div`
   margin-top: 20px;
   display: flex;
   background-color: #fff;
-  padding: 30px;
+  padding: 10px;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 700px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;

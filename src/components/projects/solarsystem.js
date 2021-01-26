@@ -7,7 +7,7 @@ const Container = styled.div`
   margin-top: 20px;
   margin-bottom: 100px;
   background-color: #fff;
-  padding: 30px;
+  padding: 10px;
   margin-left: auto;
   max-width: 1000px;
   border-radius: 5px;
@@ -44,7 +44,7 @@ const Heading = styled.h3`
 export default function Solarsystem() {
   return (
     <Container>
-      <Heading>Solar System Simulation</Heading>
+      <Heading>N-body solar system simulation</Heading>
       <FlexContainer>
         <Leftdiv>
           <Video controls>

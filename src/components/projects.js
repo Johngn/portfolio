@@ -10,9 +10,9 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container">
-        <div>
+        {/* <div>
           <h2 className="projects-heading">projects</h2>
-        </div>
+        </div> */}
         <Relok />
         <Skyview />
         <Bitcoin />

@@ -6,7 +6,7 @@ import planetvideo2 from "../../videos/double_planet2_600.mp4"
 const Container = styled.div`
   margin-top: 20px;
   background-color: #fff;
-  padding: 30px;
+  padding: 10px;
   margin-right: auto;
   max-width: 1000px;
   border-radius: 5px;
