@@ -5,6 +5,10 @@ import Bitcoin from "./projects/bitcoin"
 import Floppredictor from "./projects/floppredictor"
 import Planetcollider from "./projects/planetcollider"
 import Solarsystem from "./projects/solarsystem"
+import Eccentricity from "./projects/eccentricity"
+import Lomb from "./projects/lomb"
+import Galaxy from "./projects/galaxy"
+import Gaia from "./projects/gaia"
 
 export default function Projects() {
   return (
@@ -19,6 +23,10 @@ export default function Projects() {
         <Floppredictor />
         <Planetcollider />
         <Solarsystem />
+        <Eccentricity />
+        <Lomb />
+        <Galaxy />
+        <Gaia />
       </div>
     </section>
   )

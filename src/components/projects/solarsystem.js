@@ -5,7 +5,6 @@ import solarsystemvideo2 from "../../videos/solarsysteminnerBH3D.mp4"
 
 const Container = styled.div`
   margin-top: 20px;
-  margin-bottom: 100px;
   background-color: #fff;
   padding: 10px;
   margin-left: auto;
