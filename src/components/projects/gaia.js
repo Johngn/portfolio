@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import image1 from "../../images/hr.png"
-import pdf1 from "../../images/lomb.pdf"
 
 const ProjectContainer = styled.div`
   margin-top: 20px;
@@ -16,13 +15,13 @@ const ProjectContainer = styled.div`
 `
 
 const ImageContainer = styled.div`
-  width: 60%;
-  padding: 10px;
+  width: 55%;
+  padding: 10px 0 10px 10px;
   flex-direction: column;
 `
 const TextContainer = styled.div`
-  width: 38%;
-  padding: 10px;
+  width: 45%;
+  padding: 10px 10px 10px 0;
   flex-direction: column;
 `
 
