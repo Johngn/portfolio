@@ -47,7 +47,7 @@ export default function Bitcoin() {
           bitcoin. It takes a date and the amount of bitcoins bought, and
           returns the percentage and the total dollar value. It can be seen{" "}
           <a
-            href="https://bitcoinprofit.netlify.app/"
+            href="https://coinprofit.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
