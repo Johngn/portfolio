@@ -254,7 +254,7 @@ hr {
 .form-textarea {
   width: 100%;
   border: none;
-  padding-top: 5px;
+  padding: 5px;
   margin-top: 10px;
   border-radius: 2px;
 }
