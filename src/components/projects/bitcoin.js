@@ -41,18 +41,19 @@ export default function Bitcoin() {
   return (
     <ProjectContainer>
       <TextContainer>
-        <Heading>Bitcoin profit tracker</Heading>
+        <Heading>Crypto profit tracker</Heading>
         <p className="p-text">
-          A bitcoin profit tracker that calculates profit or loss from trading
-          bitcoin. It takes a date and the amount of bitcoins bought, and
-          returns the percentage and the total dollar value. It can be seen{" "}
+          A{" "}
           <a
             href="https://coinprofit.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            here
-          </a>
+            cryptocurrency profit tracker
+          </a>{" "}
+          that calculates profit or loss from trading bitcoin. It takes a date
+          and the amount of bitcoins bought, and returns the percentage and the
+          total dollar value. It can be seen{" "}
         </p>
       </TextContainer>
       <ImageContainer>

@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import solarsystemvideo1 from "../../videos/solarsystemouter.mp4"
+// import solarsystemvideo1 from "../../videos/solarsystemouter.mp4"
 import solarsystemvideo2 from "../../videos/solarsysteminnerBH3D.mp4"
 
 const Container = styled.div`
@@ -8,7 +8,7 @@ const Container = styled.div`
   background-color: #fff;
   padding: 10px;
   margin-left: auto;
-  max-width: 1000px;
+  max-width: 800px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
 `
@@ -18,11 +18,20 @@ const FlexContainer = styled.div`
   justify-content: space-between;
 `
 
-const Leftdiv = styled.div`
-  width: 40%;
+// const Leftdiv = styled.div`
+//   width: 40%;
+//   // display: flex;
+//   // align-items: center;
+// `
+const TextContainer = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
+
 const Rightdiv = styled.div`
-  width: 60%;
+  width: 50%;
   display: flex;
   align-items: center;
 `
@@ -43,30 +52,29 @@ const Heading = styled.h3`
 export default function Solarsystem() {
   return (
     <Container>
-      <Heading>N-body solar system simulation</Heading>
       <FlexContainer>
-        <Leftdiv>
-          <Video controls>
+        <TextContainer>
+          <Heading>N-body solar system simulation</Heading>
+          {/* <Video controls>
             <source src={solarsystemvideo1} type="video/mp4" />
             <track default kind="captions" src={solarsystemvideo1} />
-          </Video>
+          </Video> */}
           <p className="p-text">
             N-body simulation of the solar system. This was created using a
             custom made 4th order Runge-Kutta integrator. The initial positions
             and velocities of the solar system bodies were found with astropy.
             On the right the same N-body code is used to simulate the effect of
-            a black hole flying through the inner solar system. Massive
-            distruption is caused, including the ejection of Mars from the solar
-            system. The code can be found at{" "}
+            a black hole flying through the inner solar system. The code can be
+            found{" "}
             <a
               href="https://github.com/Johngn/solarsystem"
               target="_blank"
               rel="noreferrer"
             >
-              https://github.com/Johngn/solarsystem
+              here
             </a>
           </p>
-        </Leftdiv>
+        </TextContainer>
         <Rightdiv>
           <Video controls>
             <source src={solarsystemvideo2} type="video/mp4" />

@@ -13,10 +13,10 @@ export default function Contact() {
               <FontAwesomeIcon icon={faEnvelope} className="fontawesome-icon" />
               jgillan@protonmail.com
             </div>
-            {/* <div className="contact-item-container">
+            <div className="contact-item-container">
               <FontAwesomeIcon icon={faPhoneAlt} className="fontawesome-icon" />
               +46 076 037 5553
-            </div> */}
+            </div>
             <div className="contact-item-container">
               <FontAwesomeIcon icon={faLinkedin} className="fontawesome-icon" />
               <a

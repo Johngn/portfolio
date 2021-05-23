@@ -45,19 +45,20 @@ export default function Skyview() {
       <TextContainer>
         <Heading>Weather for astromoners</Heading>
         <p className="p-text">
-          An app for amateur astronomers that tells you if the weather
-          conditions in your area are suitable for sky viewing. It gives a graph
-          of cloud cover, humidity, and wind speed for the next 5 nights. Made
-          with React and Chart.js, it also utilises the Google Maps API to
-          autocomplete locations and to convert locations into latitude and
-          longitude coordinates. It can be viewed{" "}
+          A{" "}
           <a
             href="https://skyview.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            here
-          </a>
+            weather app
+          </a>{" "}
+          for amateur astronomers that tells you if the weather conditions in
+          your area are suitable for sky viewing. It gives a graph of cloud
+          cover, humidity, and wind speed for the next 5 nights. Made with React
+          and Chart.js, it also utilises the Google Maps API to autocomplete
+          locations and to convert locations into latitude and longitude
+          coordinates.
         </p>
       </TextContainer>
     </ProjectContainer>

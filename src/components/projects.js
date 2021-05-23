@@ -8,15 +8,15 @@ import Solarsystem from "./projects/solarsystem"
 import Eccentricity from "./projects/eccentricity"
 import Lomb from "./projects/lomb"
 import Galaxy from "./projects/galaxy"
-import Gaia from "./projects/gaia"
+// import Gaia from "./projects/gaia"
 
 export default function Projects() {
   return (
     <section id="projects">
       <div className="container">
-        {/* <div>
+        <div>
           <h2 className="projects-heading">projects</h2>
-        </div> */}
+        </div>
         <Relok />
         <Skyview />
         <Bitcoin />
@@ -25,8 +25,8 @@ export default function Projects() {
         <Solarsystem />
         <Eccentricity />
         <Lomb />
-        <Galaxy />
-        <Gaia />
+        {/* <Galaxy /> */}
+        {/* <Gaia /> */}
       </div>
     </section>
   )

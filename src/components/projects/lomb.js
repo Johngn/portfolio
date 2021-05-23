@@ -10,7 +10,7 @@ const ProjectContainer = styled.div`
   background-color: #fff;
   padding: 10px;
   margin-left: auto;
-  max-width: 700px;
+  max-width: 800px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;
@@ -25,6 +25,9 @@ const TextContainer = styled.div`
   width: 48%;
   padding: 10px;
   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 const Img = styled.img`
@@ -63,8 +66,9 @@ export default function Lomb() {
           </a>{" "}
           (top), a star about 130 lightyears from Earth, and the resolved folded
           periodogram (bottom) showing that it hosts a close-in planet with an
-          orbital period of 20 days. Full description of the technique{" "}
-          <a href={pdf1}>here</a>.
+          orbital period of 20 days.
+          {/* Full description of the technique{" "} */}
+          {/* <a href={pdf1}>here</a>. */}
         </p>
       </TextContainer>
     </ProjectContainer>

@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import planetvideo1 from "../../videos/single_planet_1200.mp4"
+// import planetvideo1 from "../../videos/single_planet_1200.mp4"
 import planetvideo2 from "../../videos/double_planet2_600.mp4"
 
 const Container = styled.div`
@@ -8,7 +8,7 @@ const Container = styled.div`
   background-color: #fff;
   padding: 10px;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 700px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
 `
@@ -18,11 +18,19 @@ const FlexContainer = styled.div`
   justify-content: space-between;
 `
 
-const Leftdiv = styled.div`
-  width: 40%;
+// const Leftdiv = styled.div`
+//   width: 40%;
+//   display: flex;
+//   align-items: center;
+// `
+const TextContainer = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 const Rightdiv = styled.div`
-  width: 60%;
+  width: 50%;
   display: flex;
   align-items: center;
 `
@@ -43,31 +51,29 @@ const Heading = styled.h3`
 export default function Planetcollider() {
   return (
     <Container>
-      <Heading>Hydrodynamical planet simulation</Heading>
       <FlexContainer>
-        <Leftdiv>
-          <Video controls>
+        <TextContainer>
+          <Heading>Hydrodynamical planet simulation</Heading>
+          {/* <Video controls>
             <source src={planetvideo1} type="video/mp4" />
             <track default kind="captions" src={planetvideo1} />
-          </Video>
+          </Video> */}
           <p className="p-text">
-            Hydrodynamical simulation of a planet spinning on its own axis
-            (above), and two planets colliding (right). The planets are composed
-            of 1200 particles, each with its own velocity, density, pressure and
-            energy. The differential equations of state were integrated forward
-            by steps to produce the results shown. The simulation relies on
-            smoothed-particle hydrodynamics, which reduces the computational
-            complexity of the task by restricting each particles influence to
-            only those others that are closest to it. The code can be found at{" "}
+            Hydrodynamical simulation of two planets colliding. The planets are
+            composed of 1200 particles, each with its own velocity, density,
+            pressure and energy. The simulation relies on smoothed-particle
+            hydrodynamics, which reduces the computational complexity of the
+            task by restricting each particles influence to only those others
+            that are closest to it. The code can be found{" "}
             <a
               href="https://github.com/Johngn/planetcollider"
               target="_blank"
               rel="noreferrer"
             >
-              https://github.com/Johngn/planetcollider
+              here
             </a>
           </p>
-        </Leftdiv>
+        </TextContainer>
         <Rightdiv>
           <Video controls>
             <source src={planetvideo2} type="video/mp4" />

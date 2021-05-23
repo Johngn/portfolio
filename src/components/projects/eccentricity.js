@@ -18,10 +18,16 @@ const FlexContainer = styled.div`
   justify-content: space-between;
 `
 
-const Leftdiv = styled.div`
-  width: 40%;
+// const Leftdiv = styled.div`
+//   width: 40%;
+//   display: flex;
+//   align-items: center;
+// `
+const TextContainer = styled.div`
+  width: 50%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 `
 const Rightdiv = styled.div`
   width: 60%;
@@ -45,37 +51,29 @@ const Heading = styled.h3`
 export default function Eccentricity() {
   return (
     <Container>
-      <Heading>Planets in a gas disc</Heading>
       <FlexContainer>
-        <Leftdiv>
+        <TextContainer>
+          <Heading>Planets in a gas disc</Heading>
           <p className="p-text">
             This project was carried out at Lund University in the summer of
             2020 in collaboration with Michiel Lambrechts and Sebastian Lorek.
             We were investigating eccentricity damping in the early solar system
             by simulating Mars sized bodies interacting with each other in orbit
-            around the Sun. We chose to base our work on and modify the Genga
-            code (found here:{" "}
+            around the Sun. Code is based on{" "}
             <a
               href="https://bitbucket.org/sigrimm/genga/src/master/"
               target="_blank"
               rel="noreferrer"
             >
-              https://bitbucket.org/sigrimm/genga
-            </a>
-            ). Genga is a GPU implementation of an N-body integrator written in
-            CUDA C and designed to run on NVIDIA GPUs and take advantage of the
-            parallelization capabilites of GPUs. We compared two prescriptions
-            from the literature designed to mimic the effects of tidal forces
-            from the gas disc on the orbital evolution of the planets. The video
-            shows the results of one such comparison over the course of over one
-            million years. The green dots represent what would happen without
-            any gas disc. The mass is measured in Earth masses and semi-major
-            axis is measured in AU. Any increase in mass indicates a collision
-            between two bodies, while any planets disappearing off the left of
-            the figure are swallowed by the Sun. Download the full report of our
-            findings <a href={gengapdf}>here</a>.
+              Genga
+            </a>{" "}
+            which is a GPU implementation of an N-body integrator written in
+            CUDA C and designed to run on NVIDIA GPUs. We compared two
+            prescriptions from the literature designed to mimic the effects of
+            tidal forces from the gas disc on the orbital evolution of the
+            planets. More information <a href={gengapdf}>here</a>.
           </p>
-        </Leftdiv>
+        </TextContainer>
         <Rightdiv>
           <Video controls>
             <source src={genga1} type="video/mp4" />

@@ -23,6 +23,9 @@ const TextContainer = styled.div`
   width: 48%;
   padding: 10px;
   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 const Img = styled.img`
@@ -44,20 +47,17 @@ export default function Floppredictor() {
       <TextContainer>
         <Heading>Box office predictions</Heading>
         <p className="p-text">
-          Machine learing algorithm trained on a dataset from IMDB to calculate
-          the expected box office revenue for a film based on a number of
-          inputs. The original data was cleaned and the possible actors and
-          directors that the user can choose was restricted to the 500 of each
-          category that have been involved with the most films. The model was
-          trained with LinearRegression from sklearn.linear_model. The Flask
-          server is hosted on Heroku with a React front-end. Viewable{" "}
+          A machine learing{" "}
           <a
             href="http://flop-predictor-client.s3-website-eu-west-1.amazonaws.com"
             target="_blank"
             rel="noreferrer"
           >
-            here
-          </a>
+            app
+          </a>{" "}
+          trained on a dataset from IMDB to calculate the expected box office
+          revenue for a film based on a number of inputs. The Flask server is
+          hosted on Heroku with a React front-end.
         </p>
       </TextContainer>
     </ProjectContainer>
