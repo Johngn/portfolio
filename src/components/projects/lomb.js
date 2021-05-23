@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import image1 from "../../images/lomb1.png"
 import image2 from "../../images/lomb2.png"
-import pdf1 from "../../images/lomb.pdf"
+// import pdf1 from "../../images/lomb.pdf"
 
 const ProjectContainer = styled.div`
   margin-top: 20px;
