@@ -15,7 +15,7 @@ export default function Contact() {
             </div>
             <div className="contact-item-container">
               <FontAwesomeIcon icon={faPhoneAlt} className="fontawesome-icon" />
-              +46 076 037 5553
+              +353 089 407 0707
             </div>
             <div className="contact-item-container">
               <FontAwesomeIcon icon={faLinkedin} className="fontawesome-icon" />
