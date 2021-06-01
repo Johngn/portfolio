@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
+import pdf1 from "../images/thesis.pdf"
+
 const IntroContainer = styled.div`
   max-width: 900px;
   margin: auto;
@@ -34,9 +36,9 @@ export default function Intro() {
           Astronomy and Planetary science from the Open University, and an MSc
           in Astrophysics from Lund University. My masters thesis is titled "The
           Effect of Gravitational Encounters on Binary Planetestimals", and can
-          be read here. I have experience using HTML/CSS, JavaScript, Python, R.
-          I have spent time in the web development industry, and some of my
-          previous work and other projects can be seen below.
+          be read <a href={pdf1}>here</a>. I have experience using HTML/CSS,
+          JavaScript, Python. I have spent time in the web development industry,
+          and some of my previous work and other projects can be seen below.
         </p>
       </div>
     </IntroContainer>
