@@ -1,13 +1,13 @@
 import React from "react"
 import styled from "styled-components"
-import image from "../../images/skyview.png"
+import image from "../../images/filmbookmarker.png"
 
 const ProjectContainer = styled.div`
   margin-top: 20px;
   display: flex;
   background-color: #fff;
   padding: 10px;
-  margin-right: auto;
+  margin-left: auto;
   max-width: 900px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
@@ -36,29 +36,27 @@ const Heading = styled.h3`
   font-weight: 100;
 `
 
-export default function Skyview() {
+export default function Filmbookmarker() {
   return (
     <ProjectContainer>
       <ImageContainer>
         <Img src={image} alt="" />
       </ImageContainer>
       <TextContainer>
-        <Heading>Weather for astromoners</Heading>
+        <Heading>Film Watchlist</Heading>
         <p className="p-text">
-          A{" "}
+          Fullstack{" "}
           <a
-            href="https://skyview.netlify.app/"
+            href="https://fbookmarker-client.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
-            weather app
+            Film watchlist app
           </a>{" "}
-          for amateur astronomers that tells you if the weather conditions in
-          your area are suitable for sky viewing. It gives a graph of cloud
-          cover, humidity, and wind speed for the next 5 nights. Made with React
-          and Chart.js, it also utilises the Google Maps API to autocomplete
-          locations and to convert locations into latitude and longitude
-          coordinates.
+          which lets you search for and save your favourite films. React
+          frontend connected to a Node backend and a MongoDB NoSQL database.
+          Search uses an external API to fetch details and posters for films.
+          Authentication allows different users to have their own lists.
         </p>
       </TextContainer>
     </ProjectContainer>
