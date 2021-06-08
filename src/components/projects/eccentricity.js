@@ -16,23 +16,31 @@ const Container = styled.div`
 const FlexContainer = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `
 
-// const Leftdiv = styled.div`
-//   width: 40%;
-//   display: flex;
-//   align-items: center;
-// `
 const TextContainer = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `
+
 const Rightdiv = styled.div`
   width: 60%;
   display: flex;
   align-items: center;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `
 
 const Video = styled.video`

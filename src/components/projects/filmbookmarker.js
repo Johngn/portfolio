@@ -12,18 +12,30 @@ const ProjectContainer = styled.div`
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `
 
 const ImageContainer = styled.div`
   width: 50%;
   padding: 10px;
   flex-direction: column;
+
+  @media (max-width: 700px) {
+    width: 95%;
+  }
 `
 const TextContainer = styled.div`
   width: 48%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `
 
 const Img = styled.img`

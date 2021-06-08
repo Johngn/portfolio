@@ -12,18 +12,29 @@ const ProjectContainer = styled.div`
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `
 
 const ImageContainer = styled.div`
-  width: 50%;
+  width: 45%;
   padding: 10px;
-  flex-direction: column;
+
+  @media (max-width: 700px) {
+    width: 95%;
+  }
 `
 const TextContainer = styled.div`
-  width: 45%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `
 
 const Img = styled.img`
@@ -39,9 +50,9 @@ const Heading = styled.h3`
 
 export default function Bitcoin() {
   return (
-    <ProjectContainer>
-      <TextContainer>
-        <Heading>Crypto profit tracker</Heading>
+    <ProjectContainer className="project-container">
+      <TextContainer className="full-width">
+        <Heading className="full-width">Crypto profit tracker</Heading>
         <p className="p-text">
           A{" "}
           <a

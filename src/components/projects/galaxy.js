@@ -17,6 +17,10 @@ const ProjectContainer = styled.div`
 const Flexcontainer = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `
 
 const ImageContainer = styled.div`

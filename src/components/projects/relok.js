@@ -4,6 +4,10 @@ import relokvid from "../../videos/relok.mp4"
 import relokimg from "../../images/relok.jpg"
 
 const RelokContainer = styled.div`
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+
   margin-top: 20px;
   display: flex;
   background-color: #fff;
@@ -17,6 +21,10 @@ const RelokContainer = styled.div`
 
 const VideoContainer = styled.div`
   width: 70%;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `
 
 const TextContainer = styled.div`
@@ -24,6 +32,10 @@ const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `
 
 const Heading = styled.h3`
