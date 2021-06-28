@@ -59,7 +59,7 @@ export default function Filmbookmarker() {
         <p className="p-text">
           Fullstack{" "}
           <a
-            href="https://fbookmarker-client.herokuapp.com/"
+            href="https://fbookmarker-client.herokuapp.com/login"
             target="_blank"
             rel="noreferrer"
           >
