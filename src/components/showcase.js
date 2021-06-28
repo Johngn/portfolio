@@ -10,9 +10,7 @@ export default function Showcase() {
       <div className="ptext container">
         <div id="slidein">
           <h1 className="showcase-h1">John Gillan</h1>
-          <h2 className="showcase-h2">
-            Web development, Astrophysics, Machine Learning
-          </h2>
+          <h2 className="showcase-h2">Web development, Astrophysics</h2>
         </div>
       </div>
     </div>

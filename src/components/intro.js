@@ -32,13 +32,14 @@ export default function Intro() {
         <LeftDiv></LeftDiv>
         <RightDiv>{/* <Heading>Exoplanet detection</Heading> */}</RightDiv>
         <p className="p-text">
-          My educational background is in physics and astronomy. I have a BSc in
-          Astronomy and Planetary science from the Open University, and an MSc
-          in Astrophysics from Lund University. My masters thesis is titled "The
-          Effect of Gravitational Encounters on Binary Planetestimals", and can
-          be read <a href={pdf1}>here</a>. I have experience using HTML/CSS,
-          JavaScript, Python. I have spent time in the web development industry,
-          and some of my previous work and other projects can be seen below.
+          I am a web developer with an educational background in physics and
+          astronomy. I have a BSc in Astronomy and Planetary science from the
+          Open University, and an MSc in Astrophysics from Lund University. My
+          masters thesis is titled "The Effect of Gravitational Encounters on
+          Binary Planetestimals", and can be read <a href={pdf1}>here</a>. I
+          have experience using HTML/CSS, JavaScript, Python, React/Redux, and
+          many other web technologies. Some of my previous work and other
+          projects can be seen below.
         </p>
       </div>
     </IntroContainer>
