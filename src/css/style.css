@@ -135,6 +135,12 @@ body {
   }
 }
 
+/* INTRO */
+
+.intro-text {
+  margin: 20px 0 0 0;
+}
+
 /* PROJECTS */
 
 #projects {

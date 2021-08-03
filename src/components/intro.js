@@ -29,9 +29,7 @@ export default function Intro() {
   return (
     <IntroContainer>
       <div className="container">
-        <LeftDiv></LeftDiv>
-        <RightDiv>{/* <Heading>Exoplanet detection</Heading> */}</RightDiv>
-        <p className="p-text">
+        <p className="p-text intro-text">
           I am a web developer with an educational background in physics and
           astronomy. I have a BSc in Astronomy and Planetary science from the
           Open University, and an MSc in Astrophysics from Lund University. My
@@ -39,7 +37,7 @@ export default function Intro() {
           Binary Planetestimals", and can be read <a href={pdf1}>here</a>. I
           have experience using HTML/CSS, JavaScript, Python, React/Redux, and
           many other web technologies. Some of my previous work and other
-          projects can be seen below.
+          projects can be seen here:
         </p>
       </div>
     </IntroContainer>
