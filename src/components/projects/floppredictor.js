@@ -60,11 +60,7 @@ export default function Floppredictor() {
         <Heading>Box office predictions</Heading>
         <p className="p-text">
           A machine learing{" "}
-          <a
-            href="http://flop-predictor-client.s3-website-eu-west-1.amazonaws.com"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="http://floppredictor.com" target="_blank" rel="noreferrer">
             app
           </a>{" "}
           trained on a dataset from IMDB to calculate the expected box office
