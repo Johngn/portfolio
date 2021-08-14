@@ -11,19 +11,19 @@ const IntroContainer = styled.div`
   justify-content: space-between;
 `
 
-const LeftDiv = styled.div`
-  width: 50%;
-  padding: 10px;
-  flex-direction: column;
-`
-const RightDiv = styled.div`
-  width: 48%;
-  padding: 10px;
-  flex-direction: column;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-`
+// const LeftDiv = styled.div`
+//   width: 50%;
+//   padding: 10px;
+//   flex-direction: column;
+// `
+// const RightDiv = styled.div`
+//   width: 48%;
+//   padding: 10px;
+//   flex-direction: column;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// `
 
 export default function Intro() {
   return (

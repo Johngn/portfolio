@@ -66,7 +66,7 @@ export default function Relok() {
         </p>
       </TextContainer>
       <VideoContainer>
-        <Video className="relok-video" poster={relokimg} controls muted>
+        <Video className="relok-video" poster={relokimg} controls>
           <source src={relokvid} />
           <track default kind="captions" src={relokvid} />
         </Video>
