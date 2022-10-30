@@ -18,12 +18,12 @@ export default function Projects() {
         <Relok />
         <Filmbookmarker />
         <Skyview />
-        <Bitcoin />
+        {/* <Bitcoin /> */}
         <Floppredictor />
-        <Planetcollider />
-        <Solarsystem />
-        <Eccentricity />
-        <Lomb />
+        {/* <Planetcollider /> */}
+        {/* <Solarsystem /> */}
+        {/* <Eccentricity /> */}
+        {/* <Lomb /> */}
         {/* <Galaxy /> */}
         {/* <Gaia /> */}
       </div>
