@@ -54,11 +54,11 @@ export default function Relok() {
   return (
     <RelokContainer>
       <TextContainer>
-        <Heading>Relok</Heading>
         <p className="p-text">
-          Large B2B marketplace for construction companies in Germany. I was the
-          lead front-end developer on this project, from design to launch. The
-          app is currently behind a paywall, but a demo can be requested{" "}
+          Relok is a large B2B marketplace for construction companies in
+          Germany. I was the lead front-end developer on this project, from
+          design to launch. The app is currently behind a paywall, but a demo
+          can be requested{" "}
           <a href="https://www.relok.de" target="_blank" rel="noreferrer">
             here
           </a>

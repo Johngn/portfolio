@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import image from "../../images/skyview.png"
+import image from "../../images/recipes.png"
 
 const ProjectContainer = styled.div`
   margin-top: 20px;
@@ -47,22 +47,23 @@ const Heading = styled.h3`
   font-weight: 100;
 `
 
-export default function Skyview() {
+export default function Recipes() {
   return (
     <ProjectContainer>
       <ImageContainer>
-        <a href="https://skyview.netlify.app/" target="_blank" rel="noreferrer">
+        <a
+          href="https://recipes-weld.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Img src={image} alt="" />
         </a>
       </ImageContainer>
       <TextContainer>
         <p className="p-text">
-          Designed for amateur astronomers, this app tells you if the weather
-          conditions in your area are suitable for sky viewing. It gives a graph
-          of cloud cover, humidity, and wind speed for the next 5 nights. Made
-          with React and Chart.js, it also utilises the Google Maps API to
-          autocomplete locations and to convert locations into latitude and
-          longitude coordinates.
+          Recipe builder for creating and saving recipes built with Next. Uses a
+          PostgreSQL database hosted on Supabase, accessed with Prisma. Entire
+          app is hosted on Vercel with API written directly in Next.
         </p>
       </TextContainer>
     </ProjectContainer>

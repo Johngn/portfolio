@@ -1,14 +1,14 @@
 import React from "react"
 import styled from "styled-components"
-import image from "../../images/skyview.png"
+import image from "../../images/places.png"
 
 const ProjectContainer = styled.div`
   margin-top: 20px;
   display: flex;
   background-color: #fff;
   padding: 10px;
-  margin-right: auto;
-  max-width: 900px;
+  margin-left: auto;
+  max-width: 700px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-between;
@@ -21,6 +21,7 @@ const ProjectContainer = styled.div`
 const ImageContainer = styled.div`
   width: 50%;
   padding: 10px;
+  flex-direction: column;
 
   @media (max-width: 700px) {
     width: 95%;
@@ -28,6 +29,8 @@ const ImageContainer = styled.div`
 `
 const TextContainer = styled.div`
   width: 48%;
+  padding: 10px;
+  flex-direction: column;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,27 +45,29 @@ const Img = styled.img`
 `
 const Heading = styled.h3`
   font-size: 24px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   text-align: center;
   font-weight: 100;
 `
 
-export default function Skyview() {
+export default function Places() {
   return (
     <ProjectContainer>
       <ImageContainer>
-        <a href="https://skyview.netlify.app/" target="_blank" rel="noreferrer">
+        <a
+          href="https://places-chi.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Img src={image} alt="" />
         </a>
       </ImageContainer>
       <TextContainer>
         <p className="p-text">
-          Designed for amateur astronomers, this app tells you if the weather
-          conditions in your area are suitable for sky viewing. It gives a graph
-          of cloud cover, humidity, and wind speed for the next 5 nights. Made
-          with React and Chart.js, it also utilises the Google Maps API to
-          autocomplete locations and to convert locations into latitude and
-          longitude coordinates.
+          Inspired by scratch maps, this Next app allows you to mark off
+          countries that you've visited. The data is saved on a Planetscale
+          MySQL database, with a backend hosted on Vercel. The map integration
+          is handled with MapBox and the authentication uses Github OAuth.
         </p>
       </TextContainer>
     </ProjectContainer>

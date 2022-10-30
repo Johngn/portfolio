@@ -45,7 +45,7 @@ const Img = styled.img`
 `
 const Heading = styled.h3`
   font-size: 24px;
-  padding: 10px;
+  padding-bottom: 10px;
   text-align: center;
   font-weight: 100;
 `
@@ -54,18 +54,20 @@ export default function Floppredictor() {
   return (
     <ProjectContainer>
       <ImageContainer>
-        <Img src={image} alt="" />
+        <a
+          href="http://floppredictor.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Img src={image} alt="" />
+        </a>
       </ImageContainer>
       <TextContainer>
-        <Heading>Box office predictions</Heading>
         <p className="p-text">
-          A machine learing{" "}
-          <a href="http://floppredictor.com" target="_blank" rel="noreferrer">
-            app
-          </a>{" "}
-          trained on a dataset from IMDB to calculate the expected box office
-          revenue for a film based on a number of inputs. The Flask server is
-          hosted on Heroku with a React front-end.
+          Trained on data from IMDB, this app utilises machine learing to
+          calculate the expected box office revenue for a film based on a number
+          of inputs. The Flask server is hosted on Render with a React
+          front-end.
         </p>
       </TextContainer>
     </ProjectContainer>

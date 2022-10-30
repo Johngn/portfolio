@@ -8,6 +8,8 @@ import Solarsystem from "./projects/solarsystem"
 import Eccentricity from "./projects/eccentricity"
 import Lomb from "./projects/lomb"
 import Filmbookmarker from "./projects/filmbookmarker"
+import Places from "./projects/places"
+import Recipes from "./projects/recipes"
 // import Galaxy from "./projects/galaxy"
 // import Gaia from "./projects/gaia"
 
@@ -17,9 +19,11 @@ export default function Projects() {
       <div className="container">
         <Relok />
         <Filmbookmarker />
+        <Places />
+        <Recipes />
+        <Floppredictor />
         <Skyview />
         {/* <Bitcoin /> */}
-        <Floppredictor />
         {/* <Planetcollider /> */}
         {/* <Solarsystem /> */}
         {/* <Eccentricity /> */}

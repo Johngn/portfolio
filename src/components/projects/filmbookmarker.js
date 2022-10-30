@@ -52,23 +52,17 @@ export default function Filmbookmarker() {
   return (
     <ProjectContainer>
       <ImageContainer>
-        <Img src={image} alt="" />
+        <a href="https://www.film-marker.com/" target="_blank" rel="noreferrer">
+          <Img src={image} alt="" />
+        </a>
       </ImageContainer>
       <TextContainer>
-        <Heading>Film Watchlist</Heading>
         <p className="p-text">
-          Fullstack{" "}
-          <a
-            href="https://www.film-marker.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Film watchlist app
-          </a>{" "}
-          which lets you search for and save your favourite films. React
+          FilmMarker lets you search for and save your favourite films. React
           frontend connected to a Node backend and a MongoDB NoSQL database.
           Search uses an external API to fetch details and posters for films.
-          Authentication allows different users to have their own lists.
+          Authentication allows different users to have their own lists. Backend
+          hosted on Railway with frontend hosted on Netlify.
         </p>
       </TextContainer>
     </ProjectContainer>
