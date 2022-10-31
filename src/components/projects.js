@@ -20,9 +20,9 @@ export default function Projects() {
         <Relok />
         <Filmbookmarker />
         <Places />
-        <Recipes />
-        <Floppredictor />
         <Skyview />
+        {/* <Recipes /> */}
+        <Floppredictor />
         {/* <Bitcoin /> */}
         {/* <Planetcollider /> */}
         {/* <Solarsystem /> */}
